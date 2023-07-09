@@ -17,7 +17,11 @@ collection = db["image_collection"]
 #     print(doc)
 
 # # Update a document
-# collection.update_one({"name": "John"}, {"$set": {"age": 35}})
+# collection.update_one({"Label": "test"},{"Quantity":4},{"image_url":[
+#     'test1',
+#     'test2',
+#     'test3'
+# ]})
 
 # # Delete a document
 # collection.delete_one({"name": "John"})
