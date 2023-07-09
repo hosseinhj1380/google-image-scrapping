@@ -27,5 +27,5 @@ from config.schema import schema
 
 urlpatterns = [
     # Only a single URL to access GraphQL
-    path("", GraphQLView.as_view(graphiql=True, schema=schema)),
+    path("graphql/", GraphQLView.as_view(graphiql=True, schema=schema)),
 ]
